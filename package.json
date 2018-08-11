@@ -10,12 +10,17 @@
     "morgan": "^1.9.0",
     "pug": "^2.0.3",
     "react": "^16.4.0",
-    "react-dom": "^16.4.0"
+    "react-dom": "^16.4.0",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
     "concurrently": "^3.5.0",
     "nodemon": "^1.18.3",
-    "react-scripts": "^1.1.4"
+    "react-scripts": "^1.1.4",
+    "redux-devtools-extension": "^2.13.5",
+    "redux-logger": "^3.0.6"
   },
   "scripts": {
     "start": "concurrently \"react-scripts start\" \"nodemon server/server.js\"",
